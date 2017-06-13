@@ -1,0 +1,18 @@
+Interests:
+	Python
+	Powershell
+	PHP
+	MySQL
+	Github
+	Slack
+	CircleCI
+	Docker
+	Mesos
+	Ansible
+	Puppet
+	Chef
+	asp.net
+	Ruby
+	Jenkins
+	DevOps
+	
