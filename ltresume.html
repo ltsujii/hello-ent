@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://registry.jsonresume.org/#modern -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Edit</title>
+<link rel="shortcut icon" href="http://registry.jsonresume.org/favicon.png">
+<link rel="stylesheet" href="./ltresume_files/font-awesome.min.css">
+<link rel="stylesheet" href="./ltresume_files/json-builder.css">
+<link rel="stylesheet" href="./ltresume_files/bootstrap.css">
+<link rel="stylesheet" href="./ltresume_files/style.css">
+</head>
+<body class="">
+<aside id="sidebar">
+<div id="panel">
+<div class="inner">
+<div class="actions">
+<button id="export" class="button" data-placement="bottom" title="" data-original-title="Download JSON"></button>
+<button id="reset" class="button hidden">Reset</button>
+<button id="clear" class="button">Clear</button>
+</div>
+<div class="theme">
+Current theme:
+<strong id="theme-current">modern</strong>
+</div>
+<div class="tabs">
+<a href="http://registry.jsonresume.org/#editor" data-toggle="tab" class="">Editor</a>
+<a href="http://registry.jsonresume.org/#themes" data-toggle="tab" class="active">Themes</a>
+</div>
+<div class="view">
+<a href="http://registry.jsonresume.org/" class="active" data-type="html">HTML</a>
+<a href="http://registry.jsonresume.org/" data-type="json" class="">JSON</a>
+</div>
+</div>
+</div>
+<div id="editor" class="tab-pane">
+<div class="tse-scrollable"><div class="tse-scrollbar" style="display: block;"><div class="drag-handle" style="top: 2px; height: 96px;"></div></div>
+<div class="tse-scroll-content" style="width: 479px; height: 731px;"><div id="form" class="tse-content json-builder"><div class="object">
+	<div class="object">
+	<div class="string">
+	<label>
+		<div class="title">name</div>
+		<input name="basics.name" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">label</div>
+		<input name="basics.label" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">picture</div>
+		<input name="basics.picture" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">email</div>
+		<input name="basics.email" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">phone</div>
+		<input name="basics.phone" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">website</div>
+		<input name="basics.website" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">summary</div>
+		<input name="basics.summary" value="">
+	</label>
+</div>
+<div class="object">
+	<div class="string">
+	<label>
+		<div class="title">address</div>
+		<input name="basics.location.address" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">postalCode</div>
+		<input name="basics.location.postalCode" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">city</div>
+		<input name="basics.location.city" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">countryCode</div>
+		<input name="basics.location.countryCode" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">region</div>
+		<input name="basics.location.region" value="">
+	</label>
+</div>
+
+</div>
+<div class="array ui-sortable" data-name="basics.profiles">
+	<div class="title">
+		profiles
+	</div>
+	
+	<div class="item" data-name="basics.profiles">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="object">
+	<div class="string">
+	<label>
+		<div class="title">network</div>
+		<input name="basics.profiles.network" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">username</div>
+		<input name="basics.profiles.username" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">url</div>
+		<input name="basics.profiles.url" value="">
+	</label>
+</div>
+
+</div>
+
+	</div><div class="item" data-name="basics.profiles">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="object">
+	<div class="string">
+	<label>
+		<div class="title">network</div>
+		<input name="basics.profiles.network" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">username</div>
+		<input name="basics.profiles.username" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">url</div>
+		<input name="basics.profiles.url" value="">
+	</label>
+</div>
+
+</div>
+
+	</div><button class="add">
+		Add
+	</button>
+	<button class="remove">
+		Remove
+	</button>
+</div>
+
+</div>
+<div class="array ui-sortable" data-name="work">
+	<div class="title">
+		work
+	</div>
+	
+	<div class="item" data-name="work">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="object">
+	<div class="string">
+	<label>
+		<div class="title">company</div>
+		<input name="work.company" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">position</div>
+		<input name="work.position" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">website</div>
+		<input name="work.website" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">startDate</div>
+		<input name="work.startDate" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">endDate</div>
+		<input name="work.endDate" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">summary</div>
+		<input name="work.summary" value="">
+	</label>
+</div>
+<div class="array ui-sortable" data-name="work.highlights">
+	<div class="title">
+		highlights
+	</div>
+	
+	<div class="item" data-name="work.highlights">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="string">
+	<label>
+		<div class="title">highlights</div>
+		<input name="work.highlights" value="">
+	</label>
+</div>
+
+	</div><div class="item" data-name="work.highlights">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="string">
+	<label>
+		<div class="title">highlights</div>
+		<input name="work.highlights" value="">
+	</label>
+</div>
+
+	</div><div class="item" data-name="work.highlights">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="string">
+	<label>
+		<div class="title">highlights</div>
+		<input name="work.highlights" value="">
+	</label>
+</div>
+
+	</div><button class="add">
+		Add
+	</button>
+	<button class="remove">
+		Remove
+	</button>
+</div>
+
+</div>
+
+	</div><button class="add">
+		Add
+	</button>
+	<button class="remove">
+		Remove
+	</button>
+</div>
+<div class="array ui-sortable" data-name="volunteer">
+	<div class="title">
+		volunteer
+	</div>
+	
+	<div class="item" data-name="volunteer">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="object">
+	<div class="string">
+	<label>
+		<div class="title">organization</div>
+		<input name="volunteer.organization" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">position</div>
+		<input name="volunteer.position" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">website</div>
+		<input name="volunteer.website" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">startDate</div>
+		<input name="volunteer.startDate" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">endDate</div>
+		<input name="volunteer.endDate" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">summary</div>
+		<input name="volunteer.summary" value="">
+	</label>
+</div>
+<div class="array ui-sortable" data-name="volunteer.highlights">
+	<div class="title">
+		highlights
+	</div>
+	
+	<button class="add">
+		Add
+	</button>
+	<button class="remove">
+		Remove
+	</button>
+</div>
+
+</div>
+
+	</div><button class="add">
+		Add
+	</button>
+	<button class="remove">
+		Remove
+	</button>
+</div>
+<div class="array ui-sortable" data-name="education">
+	<div class="title">
+		education
+	</div>
+	
+	<div class="item" data-name="education">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="object">
+	<div class="string">
+	<label>
+		<div class="title">institution</div>
+		<input name="education.institution" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">area</div>
+		<input name="education.area" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">studyType</div>
+		<input name="education.studyType" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">startDate</div>
+		<input name="education.startDate" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">endDate</div>
+		<input name="education.endDate" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">gpa</div>
+		<input name="education.gpa" value="">
+	</label>
+</div>
+<div class="array ui-sortable" data-name="education.courses">
+	<div class="title">
+		courses
+	</div>
+	
+	<div class="item" data-name="education.courses">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="string">
+	<label>
+		<div class="title">courses</div>
+		<input name="education.courses" value="">
+	</label>
+</div>
+
+	</div><button class="add">
+		Add
+	</button>
+	<button class="remove">
+		Remove
+	</button>
+</div>
+
+</div>
+
+	</div><button class="add">
+		Add
+	</button>
+	<button class="remove">
+		Remove
+	</button>
+</div>
+<div class="array ui-sortable" data-name="awards">
+	<div class="title">
+		awards
+	</div>
+	
+	<div class="item" data-name="awards">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="object">
+	<div class="string">
+	<label>
+		<div class="title">title</div>
+		<input name="awards.title" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">date</div>
+		<input name="awards.date" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">awarder</div>
+		<input name="awards.awarder" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">summary</div>
+		<input name="awards.summary" value="">
+	</label>
+</div>
+
+</div>
+
+	</div><button class="add">
+		Add
+	</button>
+	<button class="remove">
+		Remove
+	</button>
+</div>
+<div class="array ui-sortable" data-name="publications">
+	<div class="title">
+		publications
+	</div>
+	
+	<div class="item" data-name="publications">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="object">
+	<div class="string">
+	<label>
+		<div class="title">name</div>
+		<input name="publications.name" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">publisher</div>
+		<input name="publications.publisher" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">releaseDate</div>
+		<input name="publications.releaseDate" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">website</div>
+		<input name="publications.website" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">summary</div>
+		<input name="publications.summary" value="">
+	</label>
+</div>
+
+</div>
+
+	</div><button class="add">
+		Add
+	</button>
+	<button class="remove">
+		Remove
+	</button>
+</div>
+<div class="array ui-sortable" data-name="skills">
+	<div class="title">
+		skills
+	</div>
+	
+	<div class="item" data-name="skills">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="object">
+	<div class="string">
+	<label>
+		<div class="title">name</div>
+		<input name="skills.name" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">level</div>
+		<input name="skills.level" value="">
+	</label>
+</div>
+<div class="array ui-sortable" data-name="skills.keywords">
+	<div class="title">
+		keywords
+	</div>
+	
+	<div class="item" data-name="skills.keywords">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="string">
+	<label>
+		<div class="title">keywords</div>
+		<input name="skills.keywords" value="">
+	</label>
+</div>
+
+	</div><div class="item" data-name="skills.keywords">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="string">
+	<label>
+		<div class="title">keywords</div>
+		<input name="skills.keywords" value="">
+	</label>
+</div>
+
+	</div><div class="item" data-name="skills.keywords">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="string">
+	<label>
+		<div class="title">keywords</div>
+		<input name="skills.keywords" value="">
+	</label>
+</div>
+
+	</div><button class="add">
+		Add
+	</button>
+	<button class="remove">
+		Remove
+	</button>
+</div>
+
+</div>
+
+	</div><div class="item" data-name="skills">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="object">
+	<div class="string">
+	<label>
+		<div class="title">name</div>
+		<input name="skills.name" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">level</div>
+		<input name="skills.level" value="">
+	</label>
+</div>
+<div class="array ui-sortable" data-name="skills.keywords">
+	<div class="title">
+		keywords
+	</div>
+	
+	<div class="item" data-name="skills.keywords">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="string">
+	<label>
+		<div class="title">keywords</div>
+		<input name="skills.keywords" value="">
+	</label>
+</div>
+
+	</div><div class="item" data-name="skills.keywords">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="string">
+	<label>
+		<div class="title">keywords</div>
+		<input name="skills.keywords" value="">
+	</label>
+</div>
+
+	</div><div class="item" data-name="skills.keywords">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="string">
+	<label>
+		<div class="title">keywords</div>
+		<input name="skills.keywords" value="">
+	</label>
+</div>
+
+	</div><button class="add">
+		Add
+	</button>
+	<button class="remove">
+		Remove
+	</button>
+</div>
+
+</div>
+
+	</div><button class="add">
+		Add
+	</button>
+	<button class="remove">
+		Remove
+	</button>
+</div>
+<div class="array ui-sortable" data-name="languages">
+	<div class="title">
+		languages
+	</div>
+	
+	<div class="item" data-name="languages">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="object">
+	<div class="string">
+	<label>
+		<div class="title">language</div>
+		<input name="languages.language" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">fluency</div>
+		<input name="languages.fluency" value="">
+	</label>
+</div>
+
+</div>
+
+	</div><button class="add">
+		Add
+	</button>
+	<button class="remove">
+		Remove
+	</button>
+</div>
+<div class="array ui-sortable" data-name="interests">
+	<div class="title">
+		interests
+	</div>
+	
+	<div class="item" data-name="interests">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="object">
+	<div class="string">
+	<label>
+		<div class="title">name</div>
+		<input name="interests.name" value="">
+	</label>
+</div>
+<div class="array ui-sortable" data-name="interests.keywords">
+	<div class="title">
+		keywords
+	</div>
+	
+	<div class="item" data-name="interests.keywords">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="string">
+	<label>
+		<div class="title">keywords</div>
+		<input name="interests.keywords" value="">
+	</label>
+</div>
+
+	</div><div class="item" data-name="interests.keywords">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="string">
+	<label>
+		<div class="title">keywords</div>
+		<input name="interests.keywords" value="">
+	</label>
+</div>
+
+	</div><button class="add">
+		Add
+	</button>
+	<button class="remove">
+		Remove
+	</button>
+</div>
+
+</div>
+
+	</div><button class="add">
+		Add
+	</button>
+	<button class="remove">
+		Remove
+	</button>
+</div>
+<div class="array ui-sortable" data-name="references">
+	<div class="title">
+		references
+	</div>
+	
+	<div class="item" data-name="references">
+		<div class="handle ui-sortable-handle"></div>
+		<div class="object">
+	<div class="string">
+	<label>
+		<div class="title">name</div>
+		<input name="references.name" value="">
+	</label>
+</div>
+<div class="string">
+	<label>
+		<div class="title">reference</div>
+		<input name="references.reference" value="">
+	</label>
+</div>
+
+</div>
+
+	</div><button class="add">
+		Add
+	</button>
+	<button class="remove">
+		Remove
+	</button>
+</div>
+
+</div>
+</div></div>
+</div>
+</div>
+<div id="themes" class="tab-pane active">
+<div class="tse-scrollable"><div class="tse-scrollbar" style="display: block;"><div class="drag-handle" style="top: 2px; height: 80px;"></div></div>
+<div class="tse-scroll-content" style="width: 479px; height: 731px;"><div id="themes-list" class="tse-content">
+
+<a href="http://registry.jsonresume.org/#paper" class="item">
+<span class="version">0.3.3</span>
+<span class="name">paper</span>
+</a><a href="http://registry.jsonresume.org/#modern" class="item active">
+<span class="version">0.0.14</span>
+<span class="name">modern</span>
+</a><a href="http://registry.jsonresume.org/#contempo" class="item">
+<span class="version">0.0.3</span>
+<span class="name">contempo</span>
+</a><a href="http://registry.jsonresume.org/#classy" class="item">
+<span class="version">1.0.9</span>
+<span class="name">classy</span>
+</a><a href="http://registry.jsonresume.org/#stackoverflow" class="item">
+<span class="version">1.0.4</span>
+<span class="name">stackoverflow</span>
+</a><a href="http://registry.jsonresume.org/#crisp" class="item">
+<span class="version">0.2.12</span>
+<span class="name">crisp</span>
+</a><a href="http://registry.jsonresume.org/#class" class="item">
+<span class="version">0.1.2</span>
+<span class="name">class</span>
+</a><a href="http://registry.jsonresume.org/#spartan" class="item">
+<span class="version">0.2.1</span>
+<span class="name">spartan</span>
+</a><a href="http://registry.jsonresume.org/#onepage" class="item">
+<span class="version">0.0.3</span>
+<span class="name">onepage</span>
+</a><a href="http://registry.jsonresume.org/#dangerflat" class="item">
+<span class="version">0.1.3</span>
+<span class="name">dangerflat</span>
+</a><a href="http://registry.jsonresume.org/#nominaltech" class="item">
+<span class="version">0.0.4</span>
+<span class="name">nominaltech</span>
+</a><a href="http://registry.jsonresume.org/#slick" class="item">
+<span class="version">0.1.16</span>
+<span class="name">slick</span>
+</a><a href="http://registry.jsonresume.org/#slicker" class="item">
+<span class="version">0.1.0</span>
+<span class="name">slicker</span>
+</a><a href="http://registry.jsonresume.org/#kwan" class="item">
+<span class="version">0.0.2</span>
+<span class="name">kwan</span>
+</a><a href="http://registry.jsonresume.org/#riga" class="item">
+<span class="version">1.0.16</span>
+<span class="name">riga</span>
+</a><a href="http://registry.jsonresume.org/#wb-elegant" class="item">
+<span class="version">0.10.2</span>
+<span class="name">wb-elegant</span>
+</a><a href="http://registry.jsonresume.org/#light" class="item">
+<span class="version">0.0.5</span>
+<span class="name">light</span>
+</a><a href="http://registry.jsonresume.org/#short" class="item">
+<span class="version">0.1.7</span>
+<span class="name">short</span>
+</a><a href="http://registry.jsonresume.org/#flat" class="item">
+<span class="version">0.3.2</span>
+<span class="name">flat</span>
+</a><a href="http://registry.jsonresume.org/#spartan-skills" class="item">
+<span class="version">0.0.4</span>
+<span class="name">spartan-skills</span>
+</a><a href="http://registry.jsonresume.org/#modern-extended" class="item">
+<span class="version">0.1.1</span>
+<span class="name">modern-extended</span>
+</a><a href="http://registry.jsonresume.org/#eloquent" class="item">
+<span class="version">1.2.0</span>
+<span class="name">eloquent</span>
+</a><a href="http://registry.jsonresume.org/#paper-condensed" class="item">
+<span class="version">0.3.4</span>
+<span class="name">paper-condensed</span>
+</a><a href="http://registry.jsonresume.org/#fizz" class="item">
+<span class="version">0.0.5</span>
+<span class="name">fizz</span>
+</a><a href="http://registry.jsonresume.org/#simplyelegant" class="item">
+<span class="version">1.7.1</span>
+<span class="name">simplyelegant</span>
+</a><a href="http://registry.jsonresume.org/#zurb" class="item">
+<span class="version">0.2.2</span>
+<span class="name">zurb</span>
+</a><a href="http://registry.jsonresume.org/#elegant_fork" class="item">
+<span class="version">0.0.5</span>
+<span class="name">elegant_fork</span>
+</a><a href="http://registry.jsonresume.org/#polymer" class="item">
+<span class="version">0.0.6</span>
+<span class="name">polymer</span>
+</a><a href="http://registry.jsonresume.org/#business-card" class="item">
+<span class="version">0.0.2</span>
+<span class="name">business-card</span>
+</a><a href="http://registry.jsonresume.org/#minimal" class="item">
+<span class="version">0.1.1</span>
+<span class="name">minimal</span>
+</a><a href="http://registry.jsonresume.org/#caffeine" class="item">
+<span class="version">1.2.3</span>
+<span class="name">caffeine</span>
+</a><a href="http://registry.jsonresume.org/#shorter-bill" class="item">
+<span class="version">0.2.0</span>
+<span class="name">shorter-bill</span>
+</a><a href="http://registry.jsonresume.org/#sceptile" class="item">
+<span class="version">1.0.5</span>
+<span class="name">sceptile</span>
+</a><a href="http://registry.jsonresume.org/#uppsala" class="item">
+<span class="version">0.0.5</span>
+<span class="name">uppsala</span>
+</a><a href="http://registry.jsonresume.org/#bootstrap-icons" class="item">
+<span class="version">0.2.1</span>
+<span class="name">bootstrap-icons</span>
+</a><a href="http://registry.jsonresume.org/#markdown" class="item">
+<span class="version">1.0.2</span>
+<span class="name">markdown</span>
+</a><a href="http://registry.jsonresume.org/#timeline-fixed" class="item">
+<span class="version">0.0.9</span>
+<span class="name">timeline-fixed</span>
+</a><a href="http://registry.jsonresume.org/#light-classy-responsive" class="item">
+<span class="version">1.0.5</span>
+<span class="name">light-classy-responsive</span>
+</a><a href="http://registry.jsonresume.org/#fr_flat" class="item">
+<span class="version">0.2.1</span>
+<span class="name">fr_flat</span>
+</a><a href="http://registry.jsonresume.org/#striking" class="item">
+<span class="version">0.0.8</span>
+<span class="name">striking</span>
+</a><a href="http://registry.jsonresume.org/#compact" class="item">
+<span class="version">1.0.4</span>
+<span class="name">compact</span>
+</a><a href="http://registry.jsonresume.org/#crispy-potato" class="item">
+<span class="version">0.1.4</span>
+<span class="name">crispy-potato</span>
+</a><a href="http://registry.jsonresume.org/#material" class="item">
+<span class="version">1.1.2</span>
+<span class="name">material</span>
+</a><a href="http://registry.jsonresume.org/#jjlorenzoelegant" class="item">
+<span class="version">0.0.3</span>
+<span class="name">jjlorenzoelegant</span>
+</a><a href="http://registry.jsonresume.org/#kendall-fix" class="item">
+<span class="version">0.1.10</span>
+<span class="name">kendall-fix</span>
+</a><a href="http://registry.jsonresume.org/#spartacus" class="item">
+<span class="version">1.0.0</span>
+<span class="name">spartacus</span>
+</a><a href="http://registry.jsonresume.org/#elegant-ryantrinkle" class="item">
+<span class="version">0.0.2</span>
+<span class="name">elegant-ryantrinkle</span>
+</a><a href="http://registry.jsonresume.org/#elegant-mobile-jjlorenzo" class="item">
+<span class="version">0.0.1</span>
+<span class="name">elegant-mobile-jjlorenzo</span>
+</a><a href="http://registry.jsonresume.org/#dave" class="item">
+<span class="version">1.0.1</span>
+<span class="name">dave</span>
+</a><a href="http://registry.jsonresume.org/#ah3nry" class="item">
+<span class="version">0.0.1</span>
+<span class="name">ah3nry</span>
+</a><a href="http://registry.jsonresume.org/#depassementdepile" class="item">
+<span class="version">0.2.4</span>
+<span class="name">depassementdepile</span>
+</a><a href="http://registry.jsonresume.org/#elegant-fr" class="item">
+<span class="version">1.1.9</span>
+<span class="name">elegant-fr</span>
+</a><a href="http://registry.jsonresume.org/#resu" class="item">
+<span class="version">0.0.1</span>
+<span class="name">resu</span>
+</a><a href="http://registry.jsonresume.org/#paper-fixed" class="item">
+<span class="version">0.1.1</span>
+<span class="name">paper-fixed</span>
+</a><a href="http://registry.jsonresume.org/#flat-optimized" class="item">
+<span class="version">0.0.2</span>
+<span class="name">flat-optimized</span>
+</a><a href="http://registry.jsonresume.org/#compact-extended" class="item">
+<span class="version">1.0.3</span>
+<span class="name">compact-extended</span>
+</a><a href="http://registry.jsonresume.org/#elegant-leonth" class="item">
+<span class="version">1.0.3</span>
+<span class="name">elegant-leonth</span>
+</a><a href="http://registry.jsonresume.org/#sasha" class="item">
+<span class="version">0.0.1</span>
+<span class="name">sasha</span>
+</a><a href="http://registry.jsonresume.org/#printclassy" class="item">
+<span class="version">1.1.1</span>
+<span class="name">printclassy</span>
+</a><a href="http://registry.jsonresume.org/#paper-zh-hant" class="item">
+<span class="version">1.0.0</span>
+<span class="name">paper-zh-hant</span>
+</a><a href="http://registry.jsonresume.org/#direct" class="item">
+<span class="version">0.1.1</span>
+<span class="name">direct</span>
+</a><a href="http://registry.jsonresume.org/#foxyboxy" class="item">
+<span class="version">0.1.6</span>
+<span class="name">foxyboxy</span>
+</a><a href="http://registry.jsonresume.org/#ace" class="item">
+<span class="version">1.0.7</span>
+<span class="name">ace</span>
+</a><a href="http://registry.jsonresume.org/#elegant-tautologistics" class="item">
+<span class="version">0.2.1</span>
+<span class="name">elegant-tautologistics</span>
+</a><a href="http://registry.jsonresume.org/#elegant-zh-hant" class="item">
+<span class="version">1.0.2</span>
+<span class="name">elegant-zh-hant</span>
+</a><a href="http://registry.jsonresume.org/#responsive" class="item">
+<span class="version">0.0.4</span>
+<span class="name">responsive</span>
+</a><a href="http://registry.jsonresume.org/#boldstatement" class="item">
+<span class="version">0.1.3</span>
+<span class="name">boldstatement</span>
+</a><a href="http://registry.jsonresume.org/#edify" class="item">
+<span class="version">0.4.4</span>
+<span class="name">edify</span>
+</a><a href="http://registry.jsonresume.org/#dark-classy-responsive" class="item">
+<span class="version">1.0.2</span>
+<span class="name">dark-classy-responsive</span>
+</a><a href="http://registry.jsonresume.org/#refined" class="item">
+<span class="version">0.0.3</span>
+<span class="name">refined</span>
+</a><a href="http://registry.jsonresume.org/#curzy" class="item">
+<span class="version">1.0.4</span>
+<span class="name">curzy</span>
+</a><a href="http://registry.jsonresume.org/#kendall-fork" class="item">
+<span class="version">0.0.0</span>
+<span class="name">kendall-fork</span>
+</a><a href="http://registry.jsonresume.org/#stackoverflow2" class="item">
+<span class="version">1.0.6</span>
+<span class="name">stackoverflow2</span>
+</a><a href="http://registry.jsonresume.org/#plick" class="item">
+<span class="version">0.1.22</span>
+<span class="name">plick</span>
+</a><a href="http://registry.jsonresume.org/#business-card-minimal" class="item">
+<span class="version">0.1.0</span>
+<span class="name">business-card-minimal</span>
+</a><a href="http://registry.jsonresume.org/#elite" class="item">
+<span class="version">0.4.0</span>
+<span class="name">elite</span>
+</a><a href="http://registry.jsonresume.org/#briefstrap" class="item">
+<span class="version">1.0.0</span>
+<span class="name">briefstrap</span>
+</a><a href="http://registry.jsonresume.org/#boilerplate" class="item">
+<span class="version">0.1.2</span>
+<span class="name">boilerplate</span>
+</a><a href="http://registry.jsonresume.org/#elegant_sargefork" class="item">
+<span class="version">0.0.3</span>
+<span class="name">elegant_sargefork</span>
+</a><a href="http://registry.jsonresume.org/#real" class="item">
+<span class="version">0.0.1</span>
+<span class="name">real</span>
+</a><a href="http://registry.jsonresume.org/#elegant-hitesh" class="item">
+<span class="version">0.9.10</span>
+<span class="name">elegant-hitesh</span>
+</a><a href="http://registry.jsonresume.org/#class2" class="item">
+<span class="version">0.1.13</span>
+<span class="name">class2</span>
+</a><a href="http://registry.jsonresume.org/#onepageresume" class="item">
+<span class="version">0.0.2</span>
+<span class="name">onepageresume</span>
+</a><a href="http://registry.jsonresume.org/#elegant-compact" class="item">
+<span class="version">0.0.5</span>
+<span class="name">elegant-compact</span>
+</a><a href="http://registry.jsonresume.org/#eddywashere" class="item">
+<span class="version">1.0.1</span>
+<span class="name">eddywashere</span>
+</a><a href="http://registry.jsonresume.org/#futura" class="item">
+<span class="version">0.1.4</span>
+<span class="name">futura</span>
+</a><a href="http://registry.jsonresume.org/#boilerplate-test" class="item">
+<span class="version">0.1.5</span>
+<span class="name">boilerplate-test</span>
+</a><a href="http://registry.jsonresume.org/#elegant-custom" class="item">
+<span class="version">1.0.4</span>
+<span class="name">elegant-custom</span>
+</a><a href="http://registry.jsonresume.org/#morki" class="item">
+<span class="version">0.2.0</span>
+<span class="name">morki</span>
+</a><a href="http://registry.jsonresume.org/#qlh" class="item">
+<span class="version">1.2.0</span>
+<span class="name">qlh</span>
+</a><a href="http://registry.jsonresume.org/#flat_projects" class="item">
+<span class="version">0.3.10</span>
+<span class="name">flat_projects</span>
+</a><a href="http://registry.jsonresume.org/#elegant-simplified" class="item">
+<span class="version">0.0.2</span>
+<span class="name">elegant-simplified</span>
+</a><a href="http://registry.jsonresume.org/#joomla-flats" class="item">
+<span class="version">0.4.3</span>
+<span class="name">joomla-flats</span>
+</a><a href="http://registry.jsonresume.org/#moon" class="item">
+<span class="version">1.7.22</span>
+<span class="name">moon</span>
+</a><a href="http://registry.jsonresume.org/#onepageresumefixed" class="item">
+<span class="version">0.0.3</span>
+<span class="name">onepageresumefixed</span>
+</a><a href="http://registry.jsonresume.org/#flat-nl" class="item">
+<span class="version">0.3.7</span>
+<span class="name">flat-nl</span>
+</a><a href="http://registry.jsonresume.org/#elegant-mobile" class="item">
+<span class="version">0.0.3</span>
+<span class="name">elegant-mobile</span>
+</a><a href="http://registry.jsonresume.org/#material-moon" class="item">
+<span class="version">0.1.18</span>
+<span class="name">material-moon</span>
+</a><a href="http://registry.jsonresume.org/#paper-monofont" class="item">
+<span class="version">0.1.0</span>
+<span class="name">paper-monofont</span>
+</a><a href="http://registry.jsonresume.org/#onepage-year" class="item">
+<span class="version">0.0.1</span>
+<span class="name">onepage-year</span>
+</a><a href="http://registry.jsonresume.org/#onepage_zena" class="item">
+<span class="version">0.0.2</span>
+<span class="name">onepage_zena</span>
+</a><a href="http://registry.jsonresume.org/#short-newmanrsfork" class="item">
+<span class="version">0.0.1</span>
+<span class="name">short-newmanrsfork</span>
+</a><a href="http://registry.jsonresume.org/#flatphill" class="item">
+<span class="version">0.0.1</span>
+<span class="name">flatphill</span>
+</a><a href="http://registry.jsonresume.org/#flat-custom-trimed" class="item">
+<span class="version">0.0.2</span>
+<span class="name">flat-custom-trimed</span>
+</a><a href="http://registry.jsonresume.org/#flatter" class="item">
+<span class="version">0.3.8</span>
+<span class="name">flatter</span>
+</a><a href="http://registry.jsonresume.org/#paper_cn" class="item">
+<span class="version">0.1.75</span>
+<span class="name">paper_cn</span>
+</a><a href="http://registry.jsonresume.org/#timeline" class="item">
+<span class="version">0.0.6</span>
+<span class="name">timeline</span>
+</a><a href="http://registry.jsonresume.org/#concise-serif" class="item">
+<span class="version">0.0.4</span>
+<span class="name">concise-serif</span>
+</a><a href="http://registry.jsonresume.org/#juno" class="item">
+<span class="version">0.1.4</span>
+<span class="name">juno</span>
+</a><a href="http://registry.jsonresume.org/#kendall-plus" class="item">
+<span class="version">0.0.0</span>
+<span class="name">kendall-plus</span>
+</a><a href="http://registry.jsonresume.org/#genocation" class="item">
+<span class="version">0.1.0</span>
+<span class="name">genocation</span>
+</a><a href="http://registry.jsonresume.org/#simplistic" class="item">
+<span class="version">0.0.1</span>
+<span class="name">simplistic</span>
+</a><a href="http://registry.jsonresume.org/#kate" class="item">
+<span class="version">1.0.1</span>
+<span class="name">kate</span>
+</a><a href="http://registry.jsonresume.org/#kendall-beardtree" class="item">
+<span class="version">0.0.1</span>
+<span class="name">kendall-beardtree</span>
+</a><a href="http://registry.jsonresume.org/#shorter" class="item">
+<span class="version">0.1.6</span>
+<span class="name">shorter</span>
+</a><a href="http://registry.jsonresume.org/#elegant-tautologistics-ptbr" class="item">
+<span class="version">0.1.12</span>
+<span class="name">elegant-tautologistics-ptbr</span>
+</a><a href="http://registry.jsonresume.org/#srt" class="item">
+<span class="version">0.1.3</span>
+<span class="name">srt</span>
+</a><a href="http://registry.jsonresume.org/#flat-davidgwking" class="item">
+<span class="version">0.3.7</span>
+<span class="name">flat-davidgwking</span>
+</a><a href="http://registry.jsonresume.org/#light-caffienated" class="item">
+<span class="version">0.0.6</span>
+<span class="name">light-caffienated</span>
+</a><a href="http://registry.jsonresume.org/#elegant-tarq" class="item">
+<span class="version">0.9.10</span>
+<span class="name">elegant-tarq</span>
+</a><a href="http://registry.jsonresume.org/#cvstrap" class="item">
+<span class="version">0.0.5</span>
+<span class="name">cvstrap</span>
+</a><a href="http://registry.jsonresume.org/#futura-wp" class="item">
+<span class="version">0.3.4</span>
+<span class="name">futura-wp</span>
+</a><a href="http://registry.jsonresume.org/#aaron" class="item">
+<span class="version">0.7.4</span>
+<span class="name">aaron</span>
+</a><a href="http://registry.jsonresume.org/#materialize" class="item">
+<span class="version">0.0.1</span>
+<span class="name">materialize</span>
+</a><a href="http://registry.jsonresume.org/#paper-plus-plus" class="item">
+<span class="version">0.4.2</span>
+<span class="name">paper-plus-plus</span>
+</a><a href="http://registry.jsonresume.org/#concise" class="item">
+<span class="version">0.0.1</span>
+<span class="name">concise</span>
+</a><a href="http://registry.jsonresume.org/#dark-classy" class="item">
+<span class="version">1.0.1</span>
+<span class="name">dark-classy</span>
+</a><a href="http://registry.jsonresume.org/#eleganto" class="item">
+<span class="version">0.0.1</span>
+<span class="name">eleganto</span>
+</a><a href="http://registry.jsonresume.org/#mu" class="item">
+<span class="version">0.1.4</span>
+<span class="name">mu</span>
+</a><a href="http://registry.jsonresume.org/#shorter-miles" class="item">
+<span class="version">0.1.1</span>
+<span class="name">shorter-miles</span>
+</a><a href="http://registry.jsonresume.org/#retro" class="item">
+<span class="version">0.1.0</span>
+<span class="name">retro</span>
+</a><a href="http://registry.jsonresume.org/#modern2" class="item">
+<span class="version">0.0.20</span>
+<span class="name">modern2</span>
+</a><a href="http://registry.jsonresume.org/#compactbr" class="item">
+<span class="version">1.0.1</span>
+<span class="name">compactbr</span>
+</a><a href="http://registry.jsonresume.org/#donkeymedia" class="item">
+<span class="version">0.1.1</span>
+<span class="name">donkeymedia</span>
+</a><a href="http://registry.jsonresume.org/#flat-yi" class="item">
+<span class="version">0.3.7</span>
+<span class="name">flat-yi</span>
+</a><a href="http://registry.jsonresume.org/#blue" class="item">
+<span class="version">0.0.0</span>
+<span class="name">blue</span>
+</a><a href="http://registry.jsonresume.org/#austerity" class="item">
+<span class="version">0.0.0</span>
+<span class="name">austerity</span>
+</a><a href="http://registry.jsonresume.org/#extelegant" class="item">
+<span class="version">0.0.0</span>
+<span class="name">extelegant</span>
+</a><a href="http://registry.jsonresume.org/#simple-red" class="item">
+<span class="version">1.0.0</span>
+<span class="name">simple-red</span>
+</a></div></div>
+</div>
+</div>
+</aside>
+<div id="preview" class="">
+<div id="overlay"></div>
+<textarea id="json-editor" class=""></textarea>
+<div id="iframe-wrapper">
+<iframe id="iframe" src="./ltresume_files/saved_resource.html"></iframe>
+</div>
+</div>
+<div class="modal" id="register-modal" tabindex="-1">
+<div class="modal-dialog" style="width: 400px;">
+<form class="register-form">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Register an Account</h4>
+</div>
+<div class="modal-body">
+<input type="text" class="form-control register-email" placeholder="Email" required="" autofocus=""><br>
+<input type="text" class="form-control register-username" placeholder="Username" required=""><br>
+<input type="password" class="form-control register-password" placeholder="Password" required="">
+</div>
+<div class="modal-footer">
+<button type="submit" class="button">Register</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="modal" id="login-modal" tabindex="-1">
+<div class="modal-dialog" style="width: 400px;">
+<form class="login-form">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Login to your Account</h4>
+</div>
+<div class="modal-body">
+<input type="text" class="form-control login-email" value="thomasalwyndavis@gmail.com" placeholder="Email" required="" autofocus=""><br>
+<input type="password" class="form-control login-password" placeholder="Password" value="" required="">
+</div>
+<div class="modal-footer">
+<button type="submit" class="button">Login</button>
+</div>
+
+</div></form>
+</div>
+</div>
+<div class="modal" id="publish-modal" tabindex="-1">
+<div class="modal-dialog" style="width: 400px;">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Publish</h4>
+</div>
+<div class="modal-body">
+<p>Publishing...</p>
+</div>
+</div>
+</div>
+</div>
+<script src="./ltresume_files/libs.min.js.download"></script>
+<script src="./ltresume_files/builder.js.download"></script>
+<script src="./ltresume_files/builder.templates.js.download"></script>
+<script src="./ltresume_files/main.js.download"></script>
+
+
+</body></html>
